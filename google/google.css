@@ -1,0 +1,108 @@
+div ul {
+  list-style-type: none;
+}
+body {
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  margin: 0;
+  padding: 0;
+}
+a {
+	text-decoration: none;
+}
+a:hover{
+  text-decoration: underline;
+}
+#content{
+  text-align: center;
+}
+/*#logo{
+  height: 200px;
+  width: auto;
+  display: block;
+  margin: auto;
+}*/
+#searchbox{
+  margin: 0;
+  display: inline-block;
+  width:500px;
+  height:37px;
+  font-family: arial;
+  font-size: 18px;
+}
+.button{
+  border: hidden;
+  height: 29px;
+}
+.button:hover{
+  border:1px solid;
+}
+#navbartop{
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 50px;
+    margin-top: 0px;
+    padding-top: 0px;
+}
+form{
+  position:absolute;
+  width:100%;
+  left: 0%;
+}
+/*#footer{
+  background-color:gray;
+  width:100%;
+}*/
+li{
+  display:inline;
+}
+#navbartop {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 50px;
+  margin-top: 0px;
+  padding-top: 0px;
+}
+#navbartop ul{
+  float: right;
+  margin-top: 8px;
+  padding: 0;
+  border: 0;
+}
+#navbartop li {
+  margin: 0 5px;
+  display: inline-block;
+  vertical-align: middle;
+}
+#content{
+  {
+    width: 100%; height: 25%;
+    position: absolute;
+    display: block;
+    top: 20%;
+    margin: 0 auto;
+}
+#footer {
+    color: #666;
+    display: inline-block;
+    background-color:#F2F2F2;
+    position: fixed;
+    bottom: 0px;
+    width: 100%; height: 40px;
+  	border-top: 1px solid #e4e4e4;
+}
+#left {
+  float:left;
+}
+#right {
+  float: right;
+  margin-right: 25px;
+}
+#footer ul
+{
+  margin-top: 12px;
+}
