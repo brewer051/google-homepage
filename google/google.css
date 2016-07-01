@@ -10,19 +10,13 @@ body {
 a {
 	text-decoration: none;
 }
-a:hover{
+a:hover {
   text-decoration: underline;
 }
-#content{
+#content {
   text-align: center;
 }
-/*#logo{
-  height: 200px;
-  width: auto;
-  display: block;
-  margin: auto;
-}*/
-#searchbox{
+#searchbox {
   margin: 0;
   display: inline-block;
   width:500px;
@@ -30,14 +24,14 @@ a:hover{
   font-family: arial;
   font-size: 18px;
 }
-.button{
+.button {
   border: hidden;
   height: 29px;
 }
-.button:hover{
+.button:hover {
   border:1px solid;
 }
-#navbartop{
+#navbartop {
     position: fixed;
     top: 0;
     right: 0;
@@ -46,16 +40,12 @@ a:hover{
     margin-top: 0px;
     padding-top: 0px;
 }
-form{
+form {
   position:absolute;
   width:100%;
   left: 0%;
 }
-/*#footer{
-  background-color:gray;
-  width:100%;
-}*/
-li{
+li {
   display:inline;
 }
 #navbartop {
@@ -67,7 +57,7 @@ li{
   margin-top: 0px;
   padding-top: 0px;
 }
-#navbartop ul{
+#navbartop ul {
   float: right;
   margin-top: 8px;
   padding: 0;
@@ -78,7 +68,7 @@ li{
   display: inline-block;
   vertical-align: middle;
 }
-#content{
+#content {
     width: 100%; height: 25%;
     position: absolute;
     display: block;
@@ -101,7 +91,6 @@ li{
   float: right;
   margin-right: 25px;
 }
-#footer ul
-{
+#footer ul {
   margin-top: 12px;
 }
